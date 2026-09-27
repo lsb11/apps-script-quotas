@@ -1,0 +1,230 @@
+<!doctype html><html><head><title>Quotas for Google Services | Apps Script</title></head><body>
+<h1>Quotas for Google Services</h1>
+<h2 id="current_quotas" data-text="Current quotas">Current quotas</h2>
+<p>Quotas are per user and reset 24 hours after the first request.</p>
+<div class="devsite-table-wrapper"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Consumer accounts (for example, gmail.com)</th>
+<th>Google Workspace <br> accounts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Calendar events created</td>
+<td>5,000 / day</td>
+<td>10,000 / day</td>
+</tr>
+<tr>
+<td>Contacts created</td>
+<td>1,000 / day</td>
+<td>2,000 / day</td>
+</tr>
+<tr>
+<td>Documents created</td>
+<td>250 / day</td>
+<td>1,500 / day</td>
+</tr>
+<tr>
+<td>Files converted</td>
+<td>2,000 / day</td>
+<td>4,000 / day</td>
+</tr>
+<tr>
+<td>Email recipients per day (for example, with MailApp)</td>
+<td>100<a href="#note1">*</a> / day</td>
+<td>1,500<a href="#note1">*</a> / day</td>
+</tr>
+<tr>
+<td>Email recipients per day within domain (for example, with MailApp)</td>
+<td>100<a href="#note1">*</a> / day</td>
+<td>2,000 / day</td>
+</tr>
+<tr>
+<td>Email read/write (excluding send)</td>
+<td>20,000 / day</td>
+<td>50,000 / day</td>
+</tr>
+<tr>
+<td>Groups read</td>
+<td>2,000 / day</td>
+<td>10,000 / day</td>
+</tr>
+<tr>
+<td>JDBC connection</td>
+<td>10,000 / day</td>
+<td>50,000 / day</td>
+</tr>
+<tr>
+<td>JDBC failed connection</td>
+<td>100 / day</td>
+<td>500 / day</td>
+</tr>
+<tr>
+<td>Presentations created</td>
+<td>250 / day</td>
+<td>1,500 / day</td>
+</tr>
+<tr>
+<td>Properties read/write</td>
+<td>50,000 / day</td>
+<td>500,000 / day</td>
+</tr>
+<tr>
+<td>Slides created</td>
+<td>250 / day</td>
+<td>1,500 / day</td>
+</tr>
+<tr>
+<td>Spreadsheets created</td>
+<td>250 / day</td>
+<td>3,200 / day</td>
+</tr>
+<tr>
+<td>Triggers total runtime</td>
+<td>90 min / day</td>
+<td>6 hr / day</td>
+</tr>
+<tr>
+<td>URL Fetch calls</td>
+<td>20,000 / day</td>
+<td>100,000 / day</td>
+</tr>
+<tr>
+<td>Static Map render</td>
+<td>1,000 / day</td>
+<td>10,000 / day</td>
+</tr>
+<tr>
+<td>Google Map Direction query</td>
+<td>1,000 / day</td>
+<td>10,000 / day</td>
+</tr>
+<tr>
+<td>Google Map Geocode calls</td>
+<td>1,000 / day</td>
+<td>10,000 / day</td>
+</tr>
+<tr>
+<td>Translate calls</td>
+<td>5,000 / day</td>
+<td>20,000 / day</td>
+</tr>
+<tr>
+<td>Google Map elevation samples query</td>
+<td>1,000 / day</td>
+<td>10,000 / day</td>
+</tr>
+<tr>
+<td>Apps Script projects</td>
+<td>50 / day</td>
+<td>50 / day</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="current_limitations" data-text="Current limitations">Current limitations</h2>
+<div class="devsite-table-wrapper"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Consumer accounts (for example, gmail.com)</th>
+<th>Google Workspace <br> accounts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Script runtime</td>
+<td>6 min / execution</td>
+<td>6 min / execution</td>
+</tr>
+<tr>
+<td>Custom function runtime</td>
+<td>30 sec / execution</td>
+<td>30 sec / execution</td>
+</tr>
+<tr>
+<td>Google Workspace add-on runtime</td>
+<td>30 sec / execution</td>
+<td>30 sec<a href="#note2">*</a> / execution</td>
+</tr>
+<tr>
+<td>Simultaneous executions per user</td>
+<td>30 / user</td>
+<td>30 / user</td>
+</tr>
+<tr>
+<td>Simultaneous executions per script</td>
+<td>1,000</td>
+<td>1,000</td>
+</tr>
+<tr>
+<td>Email attachments</td>
+<td>250 / msg</td>
+<td>250 / msg</td>
+</tr>
+<tr>
+<td>Email body size</td>
+<td>200 KB / msg</td>
+<td>400 KB / msg</td>
+</tr>
+<tr>
+<td>Email recipients per message</td>
+<td>50 / msg</td>
+<td>50 / msg</td>
+</tr>
+<tr>
+<td>Email total attachments size</td>
+<td>25 MB / msg</td>
+<td>25 MB / msg</td>
+</tr>
+<tr>
+<td>Properties value size</td>
+<td>9 KB / val</td>
+<td>9 KB / val</td>
+</tr>
+<tr>
+<td>Properties total storage</td>
+<td>500 KB / property store</td>
+<td>500 KB / property store</td>
+</tr>
+<tr>
+<td>Triggers</td>
+<td>20 / user / script</td>
+<td>20 / user / script</td>
+</tr>
+<tr>
+<td>URL Fetch response size</td>
+<td>50 MB / call</td>
+<td>50 MB / call</td>
+</tr>
+<tr>
+<td>URL Fetch headers</td>
+<td>100 / call</td>
+<td>100 / call</td>
+</tr>
+<tr>
+<td>URL Fetch header size</td>
+<td>8 KB / call</td>
+<td>8 KB / call</td>
+</tr>
+<tr>
+<td>URL Fetch POST size</td>
+<td>50 MB / call</td>
+<td>50 MB / call</td>
+</tr>
+<tr>
+<td>URL Fetch URL length</td>
+<td>2 KB / call</td>
+<td>2 KB / call</td>
+</tr>
+<tr>
+<td>Versions</td>
+<td>200 / script</td>
+<td>200 / script</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="exception_messages">Exception messages</h2>
+<p>Last updated 2026-09-03 UTC.</p>
+</body></html>

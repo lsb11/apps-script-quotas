@@ -1,0 +1,45 @@
+{
+  "name": "apps-script-quotas",
+  "version": "1.0.0",
+  "description": "Every Google Apps Script quota and limit as data, checked against Google's page daily. CLI tells you which limit your script hits first and explains quota errors.",
+  "main": "lib/index.js",
+  "bin": {
+    "apps-script-quotas": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "data/",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "update": "node scripts/update.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "google-apps-script",
+    "apps-script",
+    "gas",
+    "quotas",
+    "limits",
+    "google-sheets",
+    "custom-functions",
+    "urlfetchapp",
+    "triggers",
+    "clasp",
+    "cli"
+  ],
+  "homepage": "https://stackarchitect.xyz/blog/google-apps-script-quotas-explained-how-to-avoid-limits-and-scale-your-automations/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsb11/apps-script-quotas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lsb11/apps-script-quotas/issues"
+  },
+  "author": "Luke Sandelands (https://stackarchitect.xyz/about/)",
+  "license": "MIT"
+}

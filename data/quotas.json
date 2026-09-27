@@ -1,0 +1,777 @@
+{
+  "source": "https://developers.google.com/apps-script/guides/services/quotas",
+  "googleLastUpdated": "2026-09-03",
+  "checkedAt": "2026-09-26",
+  "quotas": [
+    {
+      "id": "calendar-events-created",
+      "feature": "Calendar events created",
+      "consumer": {
+        "raw": "5,000 / day",
+        "value": 5000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "10,000 / day",
+        "value": 10000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "contacts-created",
+      "feature": "Contacts created",
+      "consumer": {
+        "raw": "1,000 / day",
+        "value": 1000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "2,000 / day",
+        "value": 2000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "documents-created",
+      "feature": "Documents created",
+      "consumer": {
+        "raw": "250 / day",
+        "value": 250,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "1,500 / day",
+        "value": 1500,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "files-converted",
+      "feature": "Files converted",
+      "consumer": {
+        "raw": "2,000 / day",
+        "value": 2000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "4,000 / day",
+        "value": 4000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "email-recipients-per-day",
+      "feature": "Email recipients per day",
+      "consumer": {
+        "raw": "100 / day",
+        "value": 100,
+        "unit": null,
+        "per": "day",
+        "note": true
+      },
+      "workspace": {
+        "raw": "1,500 / day",
+        "value": 1500,
+        "unit": null,
+        "per": "day",
+        "note": true
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "email-recipients-per-day-within-domain",
+      "feature": "Email recipients per day within domain",
+      "consumer": {
+        "raw": "100 / day",
+        "value": 100,
+        "unit": null,
+        "per": "day",
+        "note": true
+      },
+      "workspace": {
+        "raw": "2,000 / day",
+        "value": 2000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "email-read-write",
+      "feature": "Email read/write (excluding send)",
+      "consumer": {
+        "raw": "20,000 / day",
+        "value": 20000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "50,000 / day",
+        "value": 50000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "groups-read",
+      "feature": "Groups read",
+      "consumer": {
+        "raw": "2,000 / day",
+        "value": 2000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "10,000 / day",
+        "value": 10000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "jdbc-connection",
+      "feature": "JDBC connection",
+      "consumer": {
+        "raw": "10,000 / day",
+        "value": 10000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "50,000 / day",
+        "value": 50000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "jdbc-failed-connection",
+      "feature": "JDBC failed connection",
+      "consumer": {
+        "raw": "100 / day",
+        "value": 100,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "500 / day",
+        "value": 500,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "presentations-created",
+      "feature": "Presentations created",
+      "consumer": {
+        "raw": "250 / day",
+        "value": 250,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "1,500 / day",
+        "value": 1500,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "properties-read-write",
+      "feature": "Properties read/write",
+      "consumer": {
+        "raw": "50,000 / day",
+        "value": 50000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "500,000 / day",
+        "value": 500000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "slides-created",
+      "feature": "Slides created",
+      "consumer": {
+        "raw": "250 / day",
+        "value": 250,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "1,500 / day",
+        "value": 1500,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "spreadsheets-created",
+      "feature": "Spreadsheets created",
+      "consumer": {
+        "raw": "250 / day",
+        "value": 250,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "3,200 / day",
+        "value": 3200,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "triggers-total-runtime",
+      "feature": "Triggers total runtime",
+      "consumer": {
+        "raw": "90 min / day",
+        "value": 90,
+        "unit": "min",
+        "per": "day",
+        "note": false,
+        "seconds": 5400
+      },
+      "workspace": {
+        "raw": "6 hr / day",
+        "value": 6,
+        "unit": "hr",
+        "per": "day",
+        "note": false,
+        "seconds": 21600
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "url-fetch-calls",
+      "feature": "URL Fetch calls",
+      "consumer": {
+        "raw": "20,000 / day",
+        "value": 20000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "100,000 / day",
+        "value": 100000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "static-map-render",
+      "feature": "Static Map render",
+      "consumer": {
+        "raw": "1,000 / day",
+        "value": 1000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "10,000 / day",
+        "value": 10000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "google-map-direction-query",
+      "feature": "Google Map Direction query",
+      "consumer": {
+        "raw": "1,000 / day",
+        "value": 1000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "10,000 / day",
+        "value": 10000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "google-map-geocode-calls",
+      "feature": "Google Map Geocode calls",
+      "consumer": {
+        "raw": "1,000 / day",
+        "value": 1000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "10,000 / day",
+        "value": 10000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "translate-calls",
+      "feature": "Translate calls",
+      "consumer": {
+        "raw": "5,000 / day",
+        "value": 5000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "20,000 / day",
+        "value": 20000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "google-map-elevation-samples-query",
+      "feature": "Google Map elevation samples query",
+      "consumer": {
+        "raw": "1,000 / day",
+        "value": 1000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "10,000 / day",
+        "value": 10000,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    },
+    {
+      "id": "apps-script-projects",
+      "feature": "Apps Script projects",
+      "consumer": {
+        "raw": "50 / day",
+        "value": 50,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "workspace": {
+        "raw": "50 / day",
+        "value": 50,
+        "unit": null,
+        "per": "day",
+        "note": false
+      },
+      "kind": "daily"
+    }
+  ],
+  "limitations": [
+    {
+      "id": "script-runtime",
+      "feature": "Script runtime",
+      "consumer": {
+        "raw": "6 min / execution",
+        "value": 6,
+        "unit": "min",
+        "per": "execution",
+        "note": false,
+        "seconds": 360
+      },
+      "workspace": {
+        "raw": "6 min / execution",
+        "value": 6,
+        "unit": "min",
+        "per": "execution",
+        "note": false,
+        "seconds": 360
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "custom-function-runtime",
+      "feature": "Custom function runtime",
+      "consumer": {
+        "raw": "30 sec / execution",
+        "value": 30,
+        "unit": "sec",
+        "per": "execution",
+        "note": false,
+        "seconds": 30
+      },
+      "workspace": {
+        "raw": "30 sec / execution",
+        "value": 30,
+        "unit": "sec",
+        "per": "execution",
+        "note": false,
+        "seconds": 30
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "google-workspace-add-on-runtime",
+      "feature": "Google Workspace add-on runtime",
+      "consumer": {
+        "raw": "30 sec / execution",
+        "value": 30,
+        "unit": "sec",
+        "per": "execution",
+        "note": false,
+        "seconds": 30
+      },
+      "workspace": {
+        "raw": "30 sec / execution",
+        "value": 30,
+        "unit": "sec",
+        "per": "execution",
+        "note": true,
+        "seconds": 30
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "simultaneous-executions-per-user",
+      "feature": "Simultaneous executions per user",
+      "consumer": {
+        "raw": "30 / user",
+        "value": 30,
+        "unit": null,
+        "per": "user",
+        "note": false
+      },
+      "workspace": {
+        "raw": "30 / user",
+        "value": 30,
+        "unit": null,
+        "per": "user",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "simultaneous-executions-per-script",
+      "feature": "Simultaneous executions per script",
+      "consumer": {
+        "raw": "1,000",
+        "value": 1000,
+        "unit": null,
+        "per": null,
+        "note": false
+      },
+      "workspace": {
+        "raw": "1,000",
+        "value": 1000,
+        "unit": null,
+        "per": null,
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "email-attachments",
+      "feature": "Email attachments",
+      "consumer": {
+        "raw": "250 / msg",
+        "value": 250,
+        "unit": null,
+        "per": "msg",
+        "note": false
+      },
+      "workspace": {
+        "raw": "250 / msg",
+        "value": 250,
+        "unit": null,
+        "per": "msg",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "email-body-size",
+      "feature": "Email body size",
+      "consumer": {
+        "raw": "200 KB / msg",
+        "value": 200,
+        "unit": "KB",
+        "per": "msg",
+        "note": false
+      },
+      "workspace": {
+        "raw": "400 KB / msg",
+        "value": 400,
+        "unit": "KB",
+        "per": "msg",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "email-recipients-per-message",
+      "feature": "Email recipients per message",
+      "consumer": {
+        "raw": "50 / msg",
+        "value": 50,
+        "unit": null,
+        "per": "msg",
+        "note": false
+      },
+      "workspace": {
+        "raw": "50 / msg",
+        "value": 50,
+        "unit": null,
+        "per": "msg",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "email-total-attachments-size",
+      "feature": "Email total attachments size",
+      "consumer": {
+        "raw": "25 MB / msg",
+        "value": 25,
+        "unit": "MB",
+        "per": "msg",
+        "note": false
+      },
+      "workspace": {
+        "raw": "25 MB / msg",
+        "value": 25,
+        "unit": "MB",
+        "per": "msg",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "properties-value-size",
+      "feature": "Properties value size",
+      "consumer": {
+        "raw": "9 KB / val",
+        "value": 9,
+        "unit": "KB",
+        "per": "val",
+        "note": false
+      },
+      "workspace": {
+        "raw": "9 KB / val",
+        "value": 9,
+        "unit": "KB",
+        "per": "val",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "properties-total-storage",
+      "feature": "Properties total storage",
+      "consumer": {
+        "raw": "500 KB / property store",
+        "value": 500,
+        "unit": "KB",
+        "per": "property store",
+        "note": false
+      },
+      "workspace": {
+        "raw": "500 KB / property store",
+        "value": 500,
+        "unit": "KB",
+        "per": "property store",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "triggers",
+      "feature": "Triggers",
+      "consumer": {
+        "raw": "20 / user / script",
+        "value": 20,
+        "unit": null,
+        "per": "user / script",
+        "note": false
+      },
+      "workspace": {
+        "raw": "20 / user / script",
+        "value": 20,
+        "unit": null,
+        "per": "user / script",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "url-fetch-response-size",
+      "feature": "URL Fetch response size",
+      "consumer": {
+        "raw": "50 MB / call",
+        "value": 50,
+        "unit": "MB",
+        "per": "call",
+        "note": false
+      },
+      "workspace": {
+        "raw": "50 MB / call",
+        "value": 50,
+        "unit": "MB",
+        "per": "call",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "url-fetch-headers",
+      "feature": "URL Fetch headers",
+      "consumer": {
+        "raw": "100 / call",
+        "value": 100,
+        "unit": null,
+        "per": "call",
+        "note": false
+      },
+      "workspace": {
+        "raw": "100 / call",
+        "value": 100,
+        "unit": null,
+        "per": "call",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "url-fetch-header-size",
+      "feature": "URL Fetch header size",
+      "consumer": {
+        "raw": "8 KB / call",
+        "value": 8,
+        "unit": "KB",
+        "per": "call",
+        "note": false
+      },
+      "workspace": {
+        "raw": "8 KB / call",
+        "value": 8,
+        "unit": "KB",
+        "per": "call",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "url-fetch-post-size",
+      "feature": "URL Fetch POST size",
+      "consumer": {
+        "raw": "50 MB / call",
+        "value": 50,
+        "unit": "MB",
+        "per": "call",
+        "note": false
+      },
+      "workspace": {
+        "raw": "50 MB / call",
+        "value": 50,
+        "unit": "MB",
+        "per": "call",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "url-fetch-url-length",
+      "feature": "URL Fetch URL length",
+      "consumer": {
+        "raw": "2 KB / call",
+        "value": 2,
+        "unit": "KB",
+        "per": "call",
+        "note": false
+      },
+      "workspace": {
+        "raw": "2 KB / call",
+        "value": 2,
+        "unit": "KB",
+        "per": "call",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "versions",
+      "feature": "Versions",
+      "consumer": {
+        "raw": "200 / script",
+        "value": 200,
+        "unit": null,
+        "per": "script",
+        "note": false
+      },
+      "workspace": {
+        "raw": "200 / script",
+        "value": 200,
+        "unit": null,
+        "per": "script",
+        "note": false
+      },
+      "kind": "limit"
+    }
+  ]
+}

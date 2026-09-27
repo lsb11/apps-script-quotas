@@ -1,0 +1,64 @@
+name: Track Google's Apps Script quotas
+
+on:
+  schedule:
+    - cron: '17 6 * * *'   # daily, 06:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+
+  track:
+    if: github.event_name != 'push'
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check Google's page
+        id: update
+        run: node scripts/update.js
+
+      - name: Commit changed limits
+        if: steps.update.outputs.changed == 'true'
+        run: |
+          git config user.name "quota-tracker"
+          git config user.email "quota-tracker@users.noreply.github.com"
+          git add data/quotas.json CHANGELOG.md
+          git commit -m "Google changed Apps Script quotas ($(date -u +%F))"
+          git push
+
+      - name: Open an issue so the change gets published
+        if: steps.update.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SUMMARY: ${{ steps.update.outputs.summary }}
+        run: |
+          gh issue create \
+            --title "Google changed Apps Script quotas ($(date -u +%F))" \
+            --body "$(printf 'The daily check found these changes:\n\n%s\n\nNext: bump the version, npm publish, and update the table on https://stackarchitect.xyz/blog/google-apps-script-quotas-explained-how-to-avoid-limits-and-scale-your-automations/' "$SUMMARY")"
+
+      - name: Fail loudly if the page could not be parsed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue list --state open --search "Quota tracker failed in:title" --json number --jq 'length' | grep -q '^0$' && \
+          gh issue create --title "Quota tracker failed ($(date -u +%F))" \
+            --body "The daily check could not fetch or parse Google's quotas page. Google may have changed the layout. See the run log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
