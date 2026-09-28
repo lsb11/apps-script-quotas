@@ -1,424 +1,422 @@
 {
   "source": "https://developers.google.com/apps-script/guides/services/quotas",
-  "googleLastUpdated": "2026-09-03",
-  "checkedAt": "2026-09-26",
+  "googleLastUpdated": null,
+  "checkedAt": "2026-09-28",
   "quotas": [
     {
-      "id": "calendar-events-created",
-      "feature": "Calendar events created",
+      "id": "",
+      "feature": "กิจกรรมที่สร้างในปฏิทิน",
       "consumer": {
-        "raw": "5,000 / day",
+        "raw": "5,000 / วัน",
         "value": 5000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "10,000 / day",
+        "raw": "10,000 / วัน",
         "value": 10000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "contacts-created",
-      "feature": "Contacts created",
+      "id": "",
+      "feature": "รายชื่อติดต่อที่สร้าง",
       "consumer": {
-        "raw": "1,000 / day",
+        "raw": "1,000 / วัน",
         "value": 1000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "2,000 / day",
+        "raw": "2,000 / วัน",
         "value": 2000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "documents-created",
-      "feature": "Documents created",
+      "id": "",
+      "feature": "เอกสารที่สร้าง",
       "consumer": {
-        "raw": "250 / day",
+        "raw": "250 / วัน",
         "value": 250,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "1,500 / day",
+        "raw": "1,500 / วัน",
         "value": 1500,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "files-converted",
-      "feature": "Files converted",
+      "id": "",
+      "feature": "ไฟล์ที่แปลงแล้ว",
       "consumer": {
-        "raw": "2,000 / day",
+        "raw": "2,000 / วัน",
         "value": 2000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "4,000 / day",
+        "raw": "4,000 / วัน",
         "value": 4000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "email-recipients-per-day",
-      "feature": "Email recipients per day",
+      "id": "",
+      "feature": "ผู้รับอีเมลต่อวัน (เช่น ด้วย MailApp)",
       "consumer": {
-        "raw": "100 / day",
+        "raw": "100 / วัน",
         "value": 100,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": true
       },
       "workspace": {
-        "raw": "1,500 / day",
+        "raw": "1,500 / วัน",
         "value": 1500,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": true
       },
       "kind": "daily"
     },
     {
-      "id": "email-recipients-per-day-within-domain",
-      "feature": "Email recipients per day within domain",
+      "id": "",
+      "feature": "ผู้รับอีเมลต่อวันภายในโดเมน (เช่น ด้วย MailApp)",
       "consumer": {
-        "raw": "100 / day",
+        "raw": "100 / วัน",
         "value": 100,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": true
       },
       "workspace": {
-        "raw": "2,000 / day",
+        "raw": "2,000 / วัน",
         "value": 2000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "email-read-write",
-      "feature": "Email read/write (excluding send)",
+      "id": "",
+      "feature": "การอ่าน/เขียนอีเมล (ไม่รวมการส่ง)",
       "consumer": {
-        "raw": "20,000 / day",
+        "raw": "20,000 / วัน",
         "value": 20000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "50,000 / day",
+        "raw": "50,000 / วัน",
         "value": 50000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "groups-read",
-      "feature": "Groups read",
+      "id": "groups",
+      "feature": "การอ่าน Groups",
       "consumer": {
-        "raw": "2,000 / day",
+        "raw": "2,000 / วัน",
         "value": 2000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "10,000 / day",
+        "raw": "10,000 / วัน",
         "value": 10000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "jdbc-connection",
-      "feature": "JDBC connection",
+      "id": "jdbc",
+      "feature": "การเชื่อมต่อ JDBC",
       "consumer": {
-        "raw": "10,000 / day",
+        "raw": "10,000 / วัน",
         "value": 10000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "50,000 / day",
+        "raw": "50,000 / วัน",
         "value": 50000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "jdbc-failed-connection",
-      "feature": "JDBC failed connection",
+      "id": "jdbc",
+      "feature": "การเชื่อมต่อ JDBC ล้มเหลว",
       "consumer": {
-        "raw": "100 / day",
+        "raw": "100 / วัน",
         "value": 100,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "500 / day",
+        "raw": "500 / วัน",
         "value": 500,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "presentations-created",
-      "feature": "Presentations created",
+      "id": "",
+      "feature": "สร้างงานนำเสนอแล้ว",
       "consumer": {
-        "raw": "250 / day",
+        "raw": "250 / วัน",
         "value": 250,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "1,500 / day",
+        "raw": "1,500 / วัน",
         "value": 1500,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "properties-read-write",
-      "feature": "Properties read/write",
+      "id": "",
+      "feature": "คุณสมบัติอ่าน/เขียน",
       "consumer": {
-        "raw": "50,000 / day",
+        "raw": "50,000 / วัน",
         "value": 50000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "500,000 / day",
+        "raw": "500,000 / วัน",
         "value": 500000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "slides-created",
-      "feature": "Slides created",
+      "id": "",
+      "feature": "สร้างสไลด์แล้ว",
       "consumer": {
-        "raw": "250 / day",
+        "raw": "250 / วัน",
         "value": 250,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "1,500 / day",
+        "raw": "1,500 / วัน",
         "value": 1500,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "spreadsheets-created",
-      "feature": "Spreadsheets created",
+      "id": "",
+      "feature": "สเปรดชีตที่สร้าง",
       "consumer": {
-        "raw": "250 / day",
+        "raw": "250 / วัน",
         "value": 250,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "3,200 / day",
+        "raw": "3,200 / วัน",
         "value": 3200,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "triggers-total-runtime",
-      "feature": "Triggers total runtime",
+      "id": "",
+      "feature": "รันไทม์รวมสำหรับการทริกเกอร์",
       "consumer": {
-        "raw": "90 min / day",
-        "value": 90,
-        "unit": "min",
-        "per": "day",
-        "note": false,
-        "seconds": 5400
+        "raw": "90 นาที / วัน",
+        "value": null,
+        "unit": null,
+        "per": "วัน",
+        "note": false
       },
       "workspace": {
-        "raw": "6 hr / day",
-        "value": 6,
-        "unit": "hr",
-        "per": "day",
-        "note": false,
-        "seconds": 21600
+        "raw": "6 ชม./วัน",
+        "value": null,
+        "unit": null,
+        "per": null,
+        "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "url-fetch-calls",
-      "feature": "URL Fetch calls",
+      "id": "url",
+      "feature": "การเรียก URL",
       "consumer": {
-        "raw": "20,000 / day",
+        "raw": "20,000 / วัน",
         "value": 20000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "100,000 / day",
+        "raw": "100,000 / วัน",
         "value": 100000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "static-map-render",
-      "feature": "Static Map render",
+      "id": "",
+      "feature": "การแสดงผลแผนที่แบบคงที่",
       "consumer": {
-        "raw": "1,000 / day",
+        "raw": "1,000 / วัน",
         "value": 1000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "10,000 / day",
+        "raw": "10,000 / วัน",
         "value": 10000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "google-map-direction-query",
-      "feature": "Google Map Direction query",
+      "id": "google-maps",
+      "feature": "คำค้นหาเส้นทางใน Google Maps",
       "consumer": {
-        "raw": "1,000 / day",
+        "raw": "1,000 / วัน",
         "value": 1000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "10,000 / day",
+        "raw": "10,000 / วัน",
         "value": 10000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "google-map-geocode-calls",
-      "feature": "Google Map Geocode calls",
+      "id": "google-maps",
+      "feature": "การเรียกใช้การเข้ารหัสพิกัดภูมิศาสตร์ของ Google Maps",
       "consumer": {
-        "raw": "1,000 / day",
+        "raw": "1,000 / วัน",
         "value": 1000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "10,000 / day",
+        "raw": "10,000 / วัน",
         "value": 10000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "translate-calls",
-      "feature": "Translate calls",
+      "id": "",
+      "feature": "แปลการโทร",
       "consumer": {
-        "raw": "5,000 / day",
+        "raw": "5,000 / วัน",
         "value": 5000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "20,000 / day",
+        "raw": "20,000 / วัน",
         "value": 20000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "google-map-elevation-samples-query",
-      "feature": "Google Map elevation samples query",
+      "id": "google-maps",
+      "feature": "คำค้นหาตัวอย่างระดับความสูงของ Google Maps",
       "consumer": {
-        "raw": "1,000 / day",
+        "raw": "1,000 / วัน",
         "value": 1000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "10,000 / day",
+        "raw": "10,000 / วัน",
         "value": 10000,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
     },
     {
-      "id": "apps-script-projects",
-      "feature": "Apps Script projects",
+      "id": "apps-script",
+      "feature": "โปรเจ็กต์ Apps Script",
       "consumer": {
-        "raw": "50 / day",
+        "raw": "50 / วัน",
         "value": 50,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "workspace": {
-        "raw": "50 / day",
+        "raw": "50 / วัน",
         "value": 50,
         "unit": null,
-        "per": "day",
+        "per": "วัน",
         "note": false
       },
       "kind": "daily"
@@ -426,90 +424,84 @@
   ],
   "limitations": [
     {
-      "id": "script-runtime",
-      "feature": "Script runtime",
+      "id": "",
+      "feature": "รันไทม์ของสคริปต์",
       "consumer": {
-        "raw": "6 min / execution",
-        "value": 6,
-        "unit": "min",
-        "per": "execution",
-        "note": false,
-        "seconds": 360
-      },
-      "workspace": {
-        "raw": "6 min / execution",
-        "value": 6,
-        "unit": "min",
-        "per": "execution",
-        "note": false,
-        "seconds": 360
-      },
-      "kind": "limit"
-    },
-    {
-      "id": "custom-function-runtime",
-      "feature": "Custom function runtime",
-      "consumer": {
-        "raw": "30 sec / execution",
-        "value": 30,
-        "unit": "sec",
-        "per": "execution",
-        "note": false,
-        "seconds": 30
-      },
-      "workspace": {
-        "raw": "30 sec / execution",
-        "value": 30,
-        "unit": "sec",
-        "per": "execution",
-        "note": false,
-        "seconds": 30
-      },
-      "kind": "limit"
-    },
-    {
-      "id": "google-workspace-add-on-runtime",
-      "feature": "Google Workspace add-on runtime",
-      "consumer": {
-        "raw": "30 sec / execution",
-        "value": 30,
-        "unit": "sec",
-        "per": "execution",
-        "note": false,
-        "seconds": 30
-      },
-      "workspace": {
-        "raw": "30 sec / execution",
-        "value": 30,
-        "unit": "sec",
-        "per": "execution",
-        "note": true,
-        "seconds": 30
-      },
-      "kind": "limit"
-    },
-    {
-      "id": "simultaneous-executions-per-user",
-      "feature": "Simultaneous executions per user",
-      "consumer": {
-        "raw": "30 / user",
-        "value": 30,
+        "raw": "6 นาที / การดำเนินการ",
+        "value": null,
         "unit": null,
-        "per": "user",
+        "per": "การดำเนินการ",
         "note": false
       },
       "workspace": {
-        "raw": "30 / user",
-        "value": 30,
+        "raw": "6 นาที / การดำเนินการ",
+        "value": null,
         "unit": null,
-        "per": "user",
+        "per": "การดำเนินการ",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "simultaneous-executions-per-script",
-      "feature": "Simultaneous executions per script",
+      "id": "",
+      "feature": "รันไทม์ของฟังก์ชันที่กำหนดเอง",
+      "consumer": {
+        "raw": "30 วินาที / การดำเนินการ",
+        "value": null,
+        "unit": null,
+        "per": "การดำเนินการ",
+        "note": false
+      },
+      "workspace": {
+        "raw": "30 วินาที / การดำเนินการ",
+        "value": null,
+        "unit": null,
+        "per": "การดำเนินการ",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "google-workspace",
+      "feature": "รันไทม์ของส่วนเสริม Google Workspace",
+      "consumer": {
+        "raw": "30 วินาที / การดำเนินการ",
+        "value": null,
+        "unit": null,
+        "per": "การดำเนินการ",
+        "note": false
+      },
+      "workspace": {
+        "raw": "30 วินาที / การดำเนินการ",
+        "value": null,
+        "unit": null,
+        "per": "การดำเนินการ",
+        "note": true
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "",
+      "feature": "การดำเนินการพร้อมกันต่อผู้ใช้",
+      "consumer": {
+        "raw": "30 / ผู้ใช้",
+        "value": 30,
+        "unit": null,
+        "per": "ผู้ใช้",
+        "note": false
+      },
+      "workspace": {
+        "raw": "30 / ผู้ใช้",
+        "value": 30,
+        "unit": null,
+        "per": "ผู้ใช้",
+        "note": false
+      },
+      "kind": "limit"
+    },
+    {
+      "id": "",
+      "feature": "การดำเนินการพร้อมกันต่อสคริปต์",
       "consumer": {
         "raw": "1,000",
         "value": 1000,
@@ -527,84 +519,84 @@
       "kind": "limit"
     },
     {
-      "id": "email-attachments",
-      "feature": "Email attachments",
+      "id": "",
+      "feature": "ไฟล์แนบของอีเมล",
       "consumer": {
-        "raw": "250 / msg",
+        "raw": "250 / ข้อความ",
         "value": 250,
         "unit": null,
-        "per": "msg",
+        "per": "ข้อความ",
         "note": false
       },
       "workspace": {
-        "raw": "250 / msg",
+        "raw": "250 / ข้อความ",
         "value": 250,
         "unit": null,
-        "per": "msg",
+        "per": "ข้อความ",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "email-body-size",
-      "feature": "Email body size",
+      "id": "",
+      "feature": "ขนาดเนื้อหาของอีเมล",
       "consumer": {
-        "raw": "200 KB / msg",
+        "raw": "200 KB / ข้อความ",
         "value": 200,
         "unit": "KB",
-        "per": "msg",
+        "per": "ข้อความ",
         "note": false
       },
       "workspace": {
-        "raw": "400 KB / msg",
+        "raw": "400 KB / ข้อความ",
         "value": 400,
         "unit": "KB",
-        "per": "msg",
+        "per": "ข้อความ",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "email-recipients-per-message",
-      "feature": "Email recipients per message",
+      "id": "",
+      "feature": "ผู้รับอีเมลต่อข้อความ",
       "consumer": {
-        "raw": "50 / msg",
+        "raw": "50 / ข้อความ",
         "value": 50,
         "unit": null,
-        "per": "msg",
+        "per": "ข้อความ",
         "note": false
       },
       "workspace": {
-        "raw": "50 / msg",
+        "raw": "50 / ข้อความ",
         "value": 50,
         "unit": null,
-        "per": "msg",
+        "per": "ข้อความ",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "email-total-attachments-size",
-      "feature": "Email total attachments size",
+      "id": "",
+      "feature": "ขนาดไฟล์แนบทั้งหมดของอีเมล",
       "consumer": {
-        "raw": "25 MB / msg",
+        "raw": "25 MB / ข้อความ",
         "value": 25,
         "unit": "MB",
-        "per": "msg",
+        "per": "ข้อความ",
         "note": false
       },
       "workspace": {
-        "raw": "25 MB / msg",
+        "raw": "25 MB / ข้อความ",
         "value": 25,
         "unit": "MB",
-        "per": "msg",
+        "per": "ข้อความ",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "properties-value-size",
-      "feature": "Properties value size",
+      "id": "",
+      "feature": "ขนาดค่าพร็อพเพอร์ตี้",
       "consumer": {
         "raw": "9 KB / val",
         "value": 9,
@@ -622,153 +614,153 @@
       "kind": "limit"
     },
     {
-      "id": "properties-total-storage",
-      "feature": "Properties total storage",
+      "id": "",
+      "feature": "พื้นที่เก็บข้อมูลทั้งหมดของพร็อพเพอร์ตี้",
       "consumer": {
-        "raw": "500 KB / property store",
+        "raw": "500 KB / ร้านค้าพร็อพเพอร์ตี้",
         "value": 500,
         "unit": "KB",
-        "per": "property store",
+        "per": "ร้านค้าพร็อพเพอร์ตี้",
         "note": false
       },
       "workspace": {
-        "raw": "500 KB / property store",
+        "raw": "500 KB / ร้านค้าของพร็อพเพอร์ตี้",
         "value": 500,
         "unit": "KB",
-        "per": "property store",
+        "per": "ร้านค้าของพร็อพเพอร์ตี้",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "triggers",
-      "feature": "Triggers",
+      "id": "",
+      "feature": "ทริกเกอร์",
       "consumer": {
-        "raw": "20 / user / script",
+        "raw": "20 / ผู้ใช้ / สคริปต์",
         "value": 20,
         "unit": null,
-        "per": "user / script",
+        "per": "ผู้ใช้ / สคริปต์",
         "note": false
       },
       "workspace": {
-        "raw": "20 / user / script",
+        "raw": "20 / ผู้ใช้ / สคริปต์",
         "value": 20,
         "unit": null,
-        "per": "user / script",
+        "per": "ผู้ใช้ / สคริปต์",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "url-fetch-response-size",
-      "feature": "URL Fetch response size",
+      "id": "url-fetch",
+      "feature": "ขนาดการตอบกลับของ URL Fetch",
       "consumer": {
-        "raw": "50 MB / call",
+        "raw": "50 MB / การเรียกใช้",
         "value": 50,
         "unit": "MB",
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "workspace": {
-        "raw": "50 MB / call",
+        "raw": "50 MB / การเรียกใช้",
         "value": 50,
         "unit": "MB",
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "url-fetch-headers",
-      "feature": "URL Fetch headers",
+      "id": "url-fetch",
+      "feature": "ส่วนหัว URL Fetch",
       "consumer": {
-        "raw": "100 / call",
+        "raw": "100 / การเรียกใช้",
         "value": 100,
         "unit": null,
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "workspace": {
-        "raw": "100 / call",
+        "raw": "100 / การเรียกใช้",
         "value": 100,
         "unit": null,
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "url-fetch-header-size",
-      "feature": "URL Fetch header size",
+      "id": "url-fetch",
+      "feature": "ขนาดส่วนหัวของ URL Fetch",
       "consumer": {
-        "raw": "8 KB / call",
+        "raw": "8 KB / การเรียกใช้",
         "value": 8,
         "unit": "KB",
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "workspace": {
-        "raw": "8 KB / call",
+        "raw": "8 KB / การเรียกใช้",
         "value": 8,
         "unit": "KB",
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "url-fetch-post-size",
-      "feature": "URL Fetch POST size",
+      "id": "post-url",
+      "feature": "ขนาด POST ของการดึงข้อมูล URL",
       "consumer": {
-        "raw": "50 MB / call",
+        "raw": "50 MB / การเรียกใช้",
         "value": 50,
         "unit": "MB",
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "workspace": {
-        "raw": "50 MB / call",
+        "raw": "50 MB / การเรียกใช้",
         "value": 50,
         "unit": "MB",
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "url-fetch-url-length",
-      "feature": "URL Fetch URL length",
+      "id": "url-url-fetch",
+      "feature": "ความยาว URL ของ URL Fetch",
       "consumer": {
-        "raw": "2 KB / call",
+        "raw": "2 KB / การเรียกใช้",
         "value": 2,
         "unit": "KB",
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "workspace": {
-        "raw": "2 KB / call",
+        "raw": "2 KB / การเรียกใช้",
         "value": 2,
         "unit": "KB",
-        "per": "call",
+        "per": "การเรียกใช้",
         "note": false
       },
       "kind": "limit"
     },
     {
-      "id": "versions",
-      "feature": "Versions",
+      "id": "",
+      "feature": "เวอร์ชัน",
       "consumer": {
-        "raw": "200 / script",
+        "raw": "200 / สคริปต์",
         "value": 200,
         "unit": null,
-        "per": "script",
+        "per": "สคริปต์",
         "note": false
       },
       "workspace": {
-        "raw": "200 / script",
+        "raw": "200 / สคริปต์",
         "value": 200,
         "unit": null,
-        "per": "script",
+        "per": "สคริปต์",
         "note": false
       },
       "kind": "limit"
