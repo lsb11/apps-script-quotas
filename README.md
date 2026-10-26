@@ -105,10 +105,15 @@ The fixes behind `check` and `explain`, with working code:
 
 - **[Google Apps Script quotas explained](https://stackarchitect.xyz/blog/google-apps-script-quotas-explained-how-to-avoid-limits-and-scale-your-automations/)**: every limit, the errors each one causes, and a resumable batch pattern that survives the 6-minute limit.
 - **[Google Sheets custom function errors](https://stackarchitect.xyz/blog/google-sheets-custom-function-errors/)**: the 30-second limit, `Loading...` that never finishes, "too many scripts running simultaneously", and how to process a range in one call.
+- **[Autocrat stopping mid-merge](https://stackarchitect.xyz/autocrat-quota-fix/)**: why Autocrat hits the 6-minute and document-creation limits on large sheets, and moving the merge to Make.com.
+- **[When to upgrade to Google Workspace](https://stackarchitect.xyz/blog/when-to-upgrade-free-make-google-workspace/)**: which daily quotas Workspace raises, and why it does not change the 6-minute limit per run.
+- **[Shopify orders and inventory to Google Sheets](https://stackarchitect.xyz/shopify-google-sheets-automation/)**: writing Shopify data to a sheet without Apps Script triggers.
 
 ## Related
 
 - **[shopify-capi-validator](https://github.com/lsb11/shopify-capi-validator)**: validates Meta Conversions API and TikTok Events API payloads locally before they fail silently.
+
+More free guides and tools: [stackarchitect.xyz](https://stackarchitect.xyz/).
 
 ## License
 
